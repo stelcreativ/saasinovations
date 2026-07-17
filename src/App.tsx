@@ -3,6 +3,8 @@ import { ValueMatrix } from './components/ValueMatrix'
 import { Pricing } from './components/Pricing';
 import { TestimonialTray } from './components/Testimonials.tsx';
 import { FaqSection } from './components/FaqSection';
+import { Footer } from './components/Footer';
+import { ContactForm } from './components/ContactForm';
 import './index.css'
 
 function App() {
@@ -35,6 +37,11 @@ function App() {
       <Pricing />
       {/* 4. Complete Accordion FAQ Section */}
       <FaqSection />
+      {/* 6. Footer bottom of the root wrapper */}
+      {/* 5. API Contact form container */}
+      <ContactForm />
+
+      <Footer />
 
     </div>
   )
